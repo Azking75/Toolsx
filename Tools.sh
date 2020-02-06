@@ -119,11 +119,11 @@ echo
 echo "\033[037m[00].\033[031mKELUAR DARI TOOLS"
 echo
 echo "\033[034m<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
-read -p "[•-•]Silahkan Masukan Pilihan Anda[••••>]"  pilih
+read -p "[][][]Silahkan Masukan Pilihan Anda[>]"  pilih
 if [ $pilih = '1' ]
 then
 clear
-echo "\033[032m[😎]Mulai Menginstal TOOLS....."
+echo "\033[032m[*]Mulai Menginstal TOOLS....."
 sleep 3
 pkg update && pkg upgrade
 pkg install php -y
@@ -137,7 +137,7 @@ fi
 if [ $pilih = '2' ]
 then
 clear
-echo "\033[034m[😎]Memulai Menginstal Tools......."
+echo "\033[034m[*]Memulai Menginstal Tools......."
 sleep 3
 pkg update && pkg upgrade
 pkg install python2 -y
@@ -152,7 +152,7 @@ fi
 if [ $pilih = '3' ]
 then
 clear
-echo "\033[034m[😎]Memulai Menginstal Tools......."
+echo "\033[034m[*]Memulai Menginstal Tools......."
 sleep 3
 pkg update && pkg upgrade
 pkg install python2 -y
@@ -165,7 +165,7 @@ fi
 if [ $pilih = '4' ]
 then
 clear
-echo "\033[034m[😎]Memulai Menginstal Bahan Bahan......."
+echo "\033[034m[*]Memulai Menginstal Bahan Bahan......."
 sleep 3
 pkg update && pkg upgrade
 pkg install python2 -y
@@ -176,12 +176,12 @@ pip2 install mechanize
 pip2 install php
 pip2 install requests
 sleep 2
-echo "\033[034m[%]Sedang Mengakses Memori Internal...."
-echo "\033[034m[•-•]Jida Di Suruh izinkan Klik izinkan..."
+echo "\033[034m[%]Sedang engakses Memori Internal...."
+echo "\033[034m[*]Jida Di Suruh izinkan Klik izinkan..."
 sleep 4
 termux-setup-storage
 sleep 4
-echo "\033[036m[√][PENGINSTALAN SELESAI...]"
+echo "\033[036m[*][PENGINSTALAN SELESAI...]"
 sleep 2
 sh tools.sh
 fi
@@ -192,8 +192,8 @@ echo
 echo
 echo
 steep 3
-echo "\033[034m[😊] TERIMAKASIH SUDAH MAU SUSCRIBE CHANEL ADMIN [😊]"
-echo "\033[032m[😊] SEMOGA KEBAIKAN KALIAN DI BALAS OLEH TUHAN [😊]"
+echo "\033[034m[*] TERIMAKASIH SUDAH MAU SUSCRIBE CHANEL ADMIN [*]"
+echo "\033[032m[*] SEMOGA KEBAIKAN KALIAN DI BALAS OLEH TUHAN [*]"
 echo
 echo
 sleep 4
@@ -203,14 +203,14 @@ fi
 if [ $pilih = '00' ]
 then
 clear
-echo "\033[034m[😎]...........................................................................[😎]"
+echo "\033[034m[*]...........................................................................[*]"
 echo "\033[036m"
    figlet Thanks Sudah Pakai Tools
 echo
 echo
 echo "\033[032m                        JANGAN LUPA SUBSCRIBE CHANEL Azking"
 echo
-echo "\033[034m[😎]..........................................................................[😎]"
+echo "\033[034m[*]..........................................................................[*]"
 sleep 4
 exit
 fi
